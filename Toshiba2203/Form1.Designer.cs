@@ -28,12 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.TryToLoad_Btn = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // TryToLoad_Btn
+            // 
+            this.TryToLoad_Btn.Location = new System.Drawing.Point(0, 0);
+            this.TryToLoad_Btn.Name = "TryToLoad_Btn";
+            this.TryToLoad_Btn.Size = new System.Drawing.Size(94, 29);
+            this.TryToLoad_Btn.TabIndex = 0;
+            this.TryToLoad_Btn.Text = "Load";
+            this.TryToLoad_Btn.UseVisualStyleBackColor = true;
+            this.TryToLoad_Btn.Click += new System.EventHandler(this.TryToLoad_Btn_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.TryToLoad_Btn);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private Button TryToLoad_Btn;
     }
 }
