@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "8xaseLo9mXT1oEd7OMKGKM546vF0xaj6LpdgK+joE8AOcUYVsQE/L/SXKut9YenzyLf2JxndOak4tBXFirsMXg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kouki\\source\\Boardcom\\BoardcomWebAPI\\BoardcomWebAPI\\BoardcomWebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kouki\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\kouki\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\kouki\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\kouki\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\kouki\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\kouki\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
