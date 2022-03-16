@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
+using ProjToshiba;
 
-namespace BoardcomWebAPI.Controllers
+namespace ProjToshiba.Controllers
 {
     [ApiController]
     [Route("[controller]")]

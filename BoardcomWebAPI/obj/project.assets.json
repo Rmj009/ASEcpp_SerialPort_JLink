@@ -214,9 +214,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kouki\\source\\Boardcom\\BoardcomWebAPI\\BoardcomWebAPI\\BoardcomWebAPI.csproj",
-      "projectName": "BoardcomWebAPI",
-      "projectPath": "C:\\Users\\kouki\\source\\Boardcom\\BoardcomWebAPI\\BoardcomWebAPI\\BoardcomWebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\kouki\\source\\Boardcom\\BoardcomWebAPI\\BoardcomWebAPI\\ProjToshiba.csproj",
+      "projectName": "ProjToshiba",
+      "projectPath": "C:\\Users\\kouki\\source\\Boardcom\\BoardcomWebAPI\\BoardcomWebAPI\\ProjToshiba.csproj",
       "packagesPath": "C:\\Users\\kouki\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\kouki\\source\\Boardcom\\BoardcomWebAPI\\BoardcomWebAPI\\obj\\",
       "projectStyle": "PackageReference",

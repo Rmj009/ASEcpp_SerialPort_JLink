@@ -1,4 +1,4 @@
-namespace BoardcomWebAPI
+namespace ProjToshiba
 {
     public class WeatherForecast
     {
@@ -27,7 +27,7 @@ namespace BoardcomWebAPI
 
         public double APIgetResult(int powerlevel)
         {
-            Feeddata_transmit(10,11,12);
+            Feeddata_transmit(10, 11, 12);
             if (powerlevel >= 0)
             {
 
@@ -37,19 +37,19 @@ namespace BoardcomWebAPI
 
 
         const int Max = 100;
-        
-        public void Feeddata_transmit(double modul, double pa, double stability) 
+
+        public void Feeddata_transmit(double modul, double pa, double stability)
         {
             //int flag = 100; // count the loop times
             int[,,] formdata = new int[10, 10, 10];
             int[][][] intArr = new int[10][][];
             intArr[0] = new int[10][];
             intArr[1] = new int[10][];
-            for (int i = -112, flag = 100 ; i < flag; i++)
+            for (int i = -112, flag = 100; i < flag; i++)
             {
                 for (int j = 6917; j < flag; j++)
                 {
-                    for(int k = -805; k < flag; k++) 
+                    for (int k = -805; k < flag; k++)
                     {
                         i = i + j;
                         k = k + j;
@@ -57,7 +57,7 @@ namespace BoardcomWebAPI
                         Console.WriteLine(Console.ReadLine());
                         Console.WriteLine(formdata[i, j, k]);
                     }
-                    
+
                 }
                 flag++;
             }
