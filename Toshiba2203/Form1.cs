@@ -27,6 +27,24 @@ namespace Toshiba2203
             MessageBox.Show(errorMsg, @"Oops!! An Error Occurred !!!", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
+        public void LogLinklst(string len, string cmdID, int reqData) 
+        {
+            //Int32 len = 0;
+            //Int32 cmdID = 0;
+            //Int32 reqData = 0;
+            List<string> lst = new List<string>();
+            lst.Concat(lst.Select(x => x.ToString()));
+            LogSingleton.LinkedLst list1 = new LogSingleton.LinkedLst();
+            LogSingleton.LinkedLst list2 = new LogSingleton.LinkedLst();
+            LogSingleton.Node node1 = new LogSingleton.Node(len,cmdID, reqData);
+            //list1.DoInsert(node1); ?????
+            lst.Add(len);
+            lst.Add(cmdID);
+            lst.Add(reqData.ToString());
+            string RequestCmmd = String.Join("U+002C", lst.ToArray());
+            
+        }
+
         private void ShowTestGroupInfo(bool isFinishThisTime, bool isError = false) 
         {
             StringBuilder sb = new StringBuilder();

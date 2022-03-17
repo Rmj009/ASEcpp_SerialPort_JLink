@@ -33,7 +33,7 @@
             // 
             // TryToLoad_Btn
             // 
-            this.TryToLoad_Btn.Location = new System.Drawing.Point(0, 0);
+            this.TryToLoad_Btn.Location = new System.Drawing.Point(12, 195);
             this.TryToLoad_Btn.Name = "TryToLoad_Btn";
             this.TryToLoad_Btn.Size = new System.Drawing.Size(94, 29);
             this.TryToLoad_Btn.TabIndex = 0;

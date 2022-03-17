@@ -21,11 +21,11 @@ namespace ProjToshiba.LogSingleton
 
         private const int mc_logMaxCount = 30;
         //private string m_logDirPath = System.Windows.Forms.Application.StartupPath + @"\Log\" + DateTime.Now.ToString("yyyyMMdd");
-        private static string m_logFileName = "";
         private static string temp_logFileName = "";
-        private static string TMP_FILE = "tmp.log";
-        private string mRootFlowPath = "";
-        private string mRootPath = "";
+        //private static string m_logFileName = "";
+        //private static string TMP_FILE = "tmp.log";
+        //private string mRootFlowPath = "";
+        //private string mRootPath = "";
 
         /// <summary>
         /// 採用 singleton 模式
@@ -34,18 +34,22 @@ namespace ProjToshiba.LogSingleton
         /// 
         public class Node 
         {
-            public int data;
-            public int np;
+            public string cmdlen; //data
             public string codenames;
+            public int data;
             public Node next;
-            public Node(int data, string codenames, int np) { this.data = data; this.np = np; this.codenames = codenames; this.next = null; }
+            //  1. Len 2.Command ID 3.Data
+            public Node(string cmdlen, string codenames, int data) { this.cmdlen = cmdlen; this.data = data; this.codenames = codenames; this.next = null; }
 
         }
+       
         public class LinkedLst 
         {
             private Node first;
             private Node last;
-            public bool isEmpty() 
+            List<Node> lst;
+            
+        public bool isEmpty() 
             {
                 return this.first != null && this.last != null;
             }
@@ -54,13 +58,13 @@ namespace ProjToshiba.LogSingleton
                 Node current = this.first;
                 while (current!=null)
                 {
-                    Console.WriteLine("[" + current.data + " " + current.codenames + " " + current.np + "]");
+                    Console.WriteLine("[" + current.cmdlen + " " + current.codenames + " " + current.data + "]");
                 }
                 Console.WriteLine();
             }
-            public void DoInsert(int data, string codenames, int np) 
+            public void DoInsert(string cmdlen, string codenames, int data) 
             {
-                Node newNode = new Node(data, codenames, np);
+                Node newNode = new Node(cmdlen, codenames, data);
                 if (this.isEmpty())
                 {
                     first = newNode;
