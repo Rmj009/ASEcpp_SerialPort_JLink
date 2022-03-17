@@ -13,6 +13,16 @@ namespace Toshiba2203
         public Form1()
         {
             InitializeComponent();
+            InitAllstatus();
+        }
+
+        public void InitAllstatus()
+        {
+            this.InitRFSettingUI();
+        }
+        private void InitRFSettingUI() 
+        {
+            
         }
 
         private void TryToLoad_Btn_Click(object sender, EventArgs e)
@@ -44,6 +54,9 @@ namespace Toshiba2203
             string RequestCmmd = String.Join("U+002C", lst.ToArray());
             
         }
+
+
+
 
         private void ShowTestGroupInfo(bool isFinishThisTime, bool isError = false) 
         {

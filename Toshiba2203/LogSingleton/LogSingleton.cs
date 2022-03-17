@@ -42,14 +42,12 @@ namespace ProjToshiba.LogSingleton
             public Node(string cmdlen, string codenames, int data) { this.cmdlen = cmdlen; this.data = data; this.codenames = codenames; this.next = null; }
 
         }
-       
         public class LinkedLst 
         {
             private Node first;
             private Node last;
-            List<Node> lst;
             
-        public bool isEmpty() 
+            public bool isEmpty() 
             {
                 return this.first != null && this.last != null;
             }
@@ -99,11 +97,11 @@ namespace ProjToshiba.LogSingleton
             }
             else if (type == LogSingleton.TOSHIBA_SEND)
             {
-                nowDateTime = @"[ " + DateTime.Now.ToString(@"Send command") + @" ] : ";
+                nowDateTime = @"[ " + DateTimeOffset.Now.ToUnixTimeSeconds().ToString(@"Send command") + @" ] : "; //TimeStamp + Send command
             }
             else if (type == LogSingleton.TOSHIBA_RECEIVE)
             {
-                nowDateTime = @"[ " + DateTime.Now.ToString(@"Receive command") + @" ] : ";
+                nowDateTime = @"[ "+ DateTimeOffset.Now.ToUnixTimeSeconds().ToString(@"Receive command") + @" ] : ";
             }
             else
             {
