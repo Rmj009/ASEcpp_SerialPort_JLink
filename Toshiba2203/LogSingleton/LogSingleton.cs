@@ -92,6 +92,14 @@ namespace ProjToshiba.LogSingleton
             {
                 nowDateTime = @"[ " + DateTime.Now.ToString(@"yyyy/MM/dd HH:mm:ss") + @"_ SCPI ] : ";
             }
+            else if (type == LogSingleton.TOSHIBA_SEND)
+            {
+                nowDateTime = @"[ " + DateTime.Now.ToString(@"Send command") + @" ] : ";
+            }
+            else if (type == LogSingleton.TOSHIBA_RECEIVE)
+            {
+                nowDateTime = @"[ " + DateTime.Now.ToString(@"Receive command") + @" ] : ";
+            }
             else
             {
                 nowDateTime = @"[ " + DateTime.Now.ToString(@"yyyy/MM/dd HH:mm:ss") + @"_ 錯誤 ] : ";

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kouki\\source\\Boardcom\\BoardcomWebAPI\\BoardcomWebAPI\\ProjToshiba.csproj": {}
+    "C:\\Users\\kouki\\source\\Toshiba2203\\BoardcomWebAPI\\ProjToshiba.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kouki\\source\\Boardcom\\BoardcomWebAPI\\BoardcomWebAPI\\ProjToshiba.csproj": {
+    "C:\\Users\\kouki\\source\\Toshiba2203\\BoardcomWebAPI\\ProjToshiba.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kouki\\source\\Boardcom\\BoardcomWebAPI\\BoardcomWebAPI\\ProjToshiba.csproj",
+        "projectUniqueName": "C:\\Users\\kouki\\source\\Toshiba2203\\BoardcomWebAPI\\ProjToshiba.csproj",
         "projectName": "ProjToshiba",
-        "projectPath": "C:\\Users\\kouki\\source\\Boardcom\\BoardcomWebAPI\\BoardcomWebAPI\\ProjToshiba.csproj",
+        "projectPath": "C:\\Users\\kouki\\source\\Toshiba2203\\BoardcomWebAPI\\ProjToshiba.csproj",
         "packagesPath": "C:\\Users\\kouki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kouki\\source\\Boardcom\\BoardcomWebAPI\\BoardcomWebAPI\\obj\\",
+        "outputPath": "C:\\Users\\kouki\\source\\Toshiba2203\\BoardcomWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
