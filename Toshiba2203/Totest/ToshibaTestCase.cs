@@ -146,6 +146,15 @@ namespace Toshiba2203.Totest
 
             try
             {
+                this.WriteProcessFlag();
+                this.ReadProcessFlag();
+                this.SetDcDc();
+                this.EndDTM();
+                this.ReadBDAdress();
+                this.ReadFwVer();
+                this.SetSleepMode(false);
+                this.CheckXtalFreqQ(false);
+                this.SetDcDc();
                 this.Dispose();
             }
             catch (Exception ex)
@@ -160,7 +169,7 @@ namespace Toshiba2203.Totest
         /// Toshiba Define TestItems as follows
         /// </summary>
         public void WriteProcessFlag() { }
-        public void ReadProcessFlag(bool flag) { }
+        public void ReadProcessFlag() { }
         public void SetDTM() { }
         public void EndDTM() { }
         public void ReadBDAdress() { }
@@ -169,6 +178,7 @@ namespace Toshiba2203.Totest
         //public bool IsSleepMode() { return false; }
         public void CheckXtalFreqQ(bool flag) { }
         public void SetDcDc() { }
+        //-----------------------------------------------------------------------自定義 func
         public void InitSetting() { }
         public void Dispose()
         {

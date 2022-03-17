@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Toshiba2203.Exception
+namespace Toshiba2203
 {
     class BaseException : System.Exception
     {
