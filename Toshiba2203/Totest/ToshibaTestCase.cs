@@ -150,7 +150,7 @@ namespace Toshiba2203.Totest
             }
             catch (Exception ex)
             {
-                throw ex;
+                throw new Exception("Testcase StartTotest err" + ex.ToString());
                 Console.WriteLine("StartTotest err -->" +　ex.ToString());
             }
 
@@ -161,17 +161,15 @@ namespace Toshiba2203.Totest
         /// </summary>
         public void WriteProcessFlag() { }
         public void ReadProcessFlag(bool flag) { }
-
         public void SetDTM() { }
         public void EndDTM() { }
         public void ReadBDAdress() { }
         public void ReadFwVer() { }
         public void SetSleepMode(bool flag) { }
-        public bool IsSleepMode() { return false; }
+        //public bool IsSleepMode() { return false; }
         public void CheckXtalFreqQ(bool flag) { }
         public void SetDcDc() { }
         public void InitSetting() { }
-
         public void Dispose()
         {
             throw new NotImplementedException();
