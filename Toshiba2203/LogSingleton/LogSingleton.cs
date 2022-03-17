@@ -3,7 +3,7 @@ using System.Text.Encodings;
 
 namespace ProjToshiba.LogSingleton
 {
-    public class LogSingleton
+    internal class LogSingleton
     {
 
         //private static volatile LogSingleton m_singletonLog = null;
@@ -16,7 +16,7 @@ namespace ProjToshiba.LogSingleton
         public static int TOSHIBA_RECEIVE = 4;
 
         private static readonly object mLock = new object();
-        private static LogSingleton mInstance = null;
+        //private static LogSingleton mInstance = null;
         private static System.Threading.Mutex ms_threadMutex = new System.Threading.Mutex();
 
         private const int mc_logMaxCount = 30;
@@ -73,6 +73,7 @@ namespace ProjToshiba.LogSingleton
                 }
             }
         }
+
 
         public void WriteLog(string content, int type = 0)
         {

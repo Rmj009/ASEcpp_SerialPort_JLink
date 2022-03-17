@@ -1,0 +1,17 @@
+C:\Users\kouki\source\Toshiba2203\Toshiba2203\bin\Debug\net6.0-windows\Toshiba2203.exe
+C:\Users\kouki\source\Toshiba2203\Toshiba2203\bin\Debug\net6.0-windows\Toshiba2203.deps.json
+C:\Users\kouki\source\Toshiba2203\Toshiba2203\bin\Debug\net6.0-windows\Toshiba2203.runtimeconfig.json
+C:\Users\kouki\source\Toshiba2203\Toshiba2203\bin\Debug\net6.0-windows\Toshiba2203.dll
+C:\Users\kouki\source\Toshiba2203\Toshiba2203\bin\Debug\net6.0-windows\Toshiba2203.pdb
+C:\Users\kouki\source\Toshiba2203\Toshiba2203\obj\Debug\net6.0-windows\Toshiba2203.csproj.AssemblyReference.cache
+C:\Users\kouki\source\Toshiba2203\Toshiba2203\obj\Debug\net6.0-windows\Toshiba2203.Form1.resources
+C:\Users\kouki\source\Toshiba2203\Toshiba2203\obj\Debug\net6.0-windows\Toshiba2203.csproj.GenerateResource.cache
+C:\Users\kouki\source\Toshiba2203\Toshiba2203\obj\Debug\net6.0-windows\Toshiba2203.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kouki\source\Toshiba2203\Toshiba2203\obj\Debug\net6.0-windows\Toshiba2203.AssemblyInfoInputs.cache
+C:\Users\kouki\source\Toshiba2203\Toshiba2203\obj\Debug\net6.0-windows\Toshiba2203.AssemblyInfo.cs
+C:\Users\kouki\source\Toshiba2203\Toshiba2203\obj\Debug\net6.0-windows\Toshiba2203.csproj.CoreCompileInputs.cache
+C:\Users\kouki\source\Toshiba2203\Toshiba2203\obj\Debug\net6.0-windows\Toshiba2203.dll
+C:\Users\kouki\source\Toshiba2203\Toshiba2203\obj\Debug\net6.0-windows\refint\Toshiba2203.dll
+C:\Users\kouki\source\Toshiba2203\Toshiba2203\obj\Debug\net6.0-windows\Toshiba2203.pdb
+C:\Users\kouki\source\Toshiba2203\Toshiba2203\obj\Debug\net6.0-windows\Toshiba2203.genruntimeconfig.cache
+C:\Users\kouki\source\Toshiba2203\Toshiba2203\obj\Debug\net6.0-windows\ref\Toshiba2203.dll
