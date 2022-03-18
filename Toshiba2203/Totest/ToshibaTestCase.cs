@@ -155,7 +155,7 @@ namespace Toshiba2203.Totest
                 this.SetSleepMode(false);
                 this.CheckXtalFreqQ(false);
                 this.SetDcDc();
-                this.Dispose();
+                //this.Dispose();
             }
             catch (Exception ex)
             {
@@ -178,15 +178,66 @@ namespace Toshiba2203.Totest
         //public bool IsSleepMode() { return false; }
         public void CheckXtalFreqQ(bool flag) { }
         public void SetDcDc() { }
-        //-----------------------------------------------------------------------自定義 func
+        //-----------------------------------------------------------------------clone 自定義 func
         public void InitSetting() { }
         public void Dispose()
         {
-            throw new NotImplementedException();
+            try
+            {
+                //this.PowerOffDUTNoLog();
+                //this.SafeCloseInstrument(mRFInstrument);
+                //this.SafeCloseInstrument(mExtraAdapPowerInstrument);
+                //this.SafeCloseInstrument(mExtraVBatPowerInstrument);
+                //this.SafeCloseInstrument(mDaqInstrument);
+                //this.SafeCloseInstrument(mGPIODaqInstrument);
+            }
+            catch { }
         }
+
         public void IDispose()
         {
             throw new NotImplementedException();
+            //Serail_DLL.Multi_SerialCloseAll();
+            //this.ClosePixartPGM();
+            //this.SafeDisposeInstrument(this.mRFInstrument);
+            //this.SafeDisposeInstrument(mExtraAdapPowerInstrument);
+            //this.SafeDisposeInstrument(mExtraVBatPowerInstrument);
+            //this.SafeDisposeInstrument(mDaqInstrument);
+            //this.SafeDisposeInstrument(mGPIODaqInstrument);
         }
+
+        //public void SetICSystemIni(object iniObject)
+        //{
+        //    this.mSystemConfig = iniObject as SASP8SystemIni;
+        //}
+
+        //public void SetLogCallback(Action<string, uint> logAction)
+        //{
+        //    this.mLogCallback = logAction;
+        //}
+
+        //public void SetRunResultCallback(Action<string, bool> resultCallback)
+        //{
+        //    this.mRunResultCallback = resultCallback;
+        //}
+
+        //public void SetUICallback(Action<string> uiCallback)
+        //{
+        //    this.mUICallback = uiCallback;
+        //}
+
+        //public void Save_LOG_data(string sTtestResult, bool isTitle = false, bool isCustom = false, bool isError = false)
+        //{
+        //    uint type = isTitle ? RFTestTool.Util.MSG.TITLE : RFTestTool.Util.MSG.NORMAL;
+        //    if (type == RFTestTool.Util.MSG.TITLE)
+        //    {
+        //        sTtestResult = "*** " + sTtestResult + " ***";
+        //    }
+        //    type = isCustom ? RFTestTool.Util.MSG.CUSTOM : type;
+        //    type = isError ? RFTestTool.Util.MSG.ERROR : type;
+
+        //    this.mLogCallback(sTtestResult, type);
+        //}
+
     }
 }
