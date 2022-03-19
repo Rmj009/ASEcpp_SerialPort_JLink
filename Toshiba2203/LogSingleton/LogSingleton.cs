@@ -107,7 +107,7 @@ namespace ProjToshiba.LogSingleton
             }
             else if (type == LogSingleton.TOSHIBA_MEASURE_VALUE)
             {
-                nowDateTime = @"[ " + DateTimeOffset.Now.ToUnixTimeSeconds().ToString(@"Measure Value") + @" ] : ";
+                nowDateTime = @"[ " + DateTimeOffset.Now.ToUnixTimeSeconds().ToString(@"Measure Value") + @" ] : "; // after 3 times send recevice
             }
             else
             {
