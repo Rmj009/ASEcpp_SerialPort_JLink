@@ -14,6 +14,8 @@ namespace ProjToshiba.LogSingleton
         public static int SCPI = 2;
         public static int TOSHIBA_SEND = 3;
         public static int TOSHIBA_RECEIVE = 4;
+        public static int TOSHIBA_MEASURE_VALUE = 5;
+
 
         private static readonly object mLock = new object();
         //private static LogSingleton mInstance = null;
@@ -102,6 +104,10 @@ namespace ProjToshiba.LogSingleton
             else if (type == LogSingleton.TOSHIBA_RECEIVE)
             {
                 nowDateTime = @"[ "+ DateTimeOffset.Now.ToUnixTimeSeconds().ToString(@"Receive command") + @" ] : ";
+            }
+            else if (type == LogSingleton.TOSHIBA_MEASURE_VALUE)
+            {
+                nowDateTime = @"[ " + DateTimeOffset.Now.ToUnixTimeSeconds().ToString(@"Measure Value") + @" ] : ";
             }
             else
             {
