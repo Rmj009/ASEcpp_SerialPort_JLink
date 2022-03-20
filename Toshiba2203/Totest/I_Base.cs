@@ -7,7 +7,7 @@ using Toshiba2203.Totest;
 
 namespace Toshiba2203.Totest
 {
-    public abstract class I_Base
+    public abstract class ICBase
     {
         private bool mIsTesting = false;
         private System.Threading.Mutex mTestingMutex = new System.Threading.Mutex();

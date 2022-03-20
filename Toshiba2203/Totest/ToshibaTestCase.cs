@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Toshiba2203.Totest
 {
-    internal class ToshibaTestCase : I_Base , Interface1
+    internal class ToshibaTestCase : ICBase , IIC
     {
         public class TestItem
         {

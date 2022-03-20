@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Toshiba2203.Totest
 {
-    internal interface Interface1
+    internal interface IIC         //SAPA8 toshiba only
     {
         bool IsTesting();
         void SetIsTesting(bool isTesting);
