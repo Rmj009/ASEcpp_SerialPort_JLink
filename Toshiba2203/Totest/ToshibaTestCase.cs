@@ -159,8 +159,8 @@ namespace Toshiba2203.Totest
             }
             catch (Exception ex)
             {
-                throw new Exception("Testcase StartTotest err" + ex.ToString());
                 Console.WriteLine("StartTotest err -->" +　ex.ToString());
+                throw new Exception("Testcase StartTotest err" + ex.ToString());
             }
 
         }
@@ -206,6 +206,150 @@ namespace Toshiba2203.Totest
             //this.SafeDisposeInstrument(mGPIODaqInstrument);
         }
 
+        private void SendCmd(string cmd, ref string result, bool showLogForUI = true)
+        {
+            if (showLogForUI)
+            {
+                if (SystemIni.Instance.Enable_Verbose())
+                {
+                    this.Save_LOG_data("Send command : " + cmd);
+                }
+            }
+            result = "";
+            Serail_DLL.SERIAL_RESULT serialResult = new Serail_DLL.SERIAL_RESULT();
+            // Console.WriteLine("Send Cmd : " + cmd);
+            string comport = this.GetnRFSerialPort();
+
+            if (!Serail_DLL.Multi_TransferReceive_HEX(comport, cmd.Replace(" ", ""), ref serialResult, SERIAL_TIME_OUT))
+            {
+                throw new Exception("Serial Timeout Error !! Command : " + cmd);
+            }
+
+            string sResult = serialResult.readData.Trim();
+            if (showLogForUI)
+            {
+                if (SystemIni.Instance.Enable_Verbose())
+                {
+                    this.Save_LOG_data("Receice Command ：" + sResult);
+                }
+            }
+
+            result = sResult;
+        }
+
+        private string GetnRFSerialPort()
+        {
+            string port = "";
+            try
+            {
+                using (ManagementObjectSearcher searcher = new ManagementObjectSearcher("select * from Win32_PnPEntity"))
+                {
+
+                    foreach (var hardInfo in searcher.Get())
+                    {
+                        if (hardInfo.Properties["Name"].Value != null && hardInfo.Properties["Name"].Value.ToString().Contains("(COM") && hardInfo.ToString().Contains("FTDIBUS"))
+                        {
+                            string[] sArrayPatch = hardInfo.Properties["Name"].Value.ToString().Split('(');
+
+                            port = sArrayPatch[1].Trim().ToString().Replace(")", "");
+
+                        }
+                    }
+                }
+            }
+            catch
+            {
+                throw;
+            }
+
+            return port;
+            //return "COM3";
+        }
+
+        private void FWVerCheck()
+        {
+            string sResult = "";
+            string title = "Start FW Ver Check";
+
+            try
+            {
+                Console.WriteLine(title);
+                SendCmd("0x01 06", ref sResult, true);
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+        private void ProcessFlagWritingInitialize()
+        {
+            string sResult = "";
+            string title = "Process flag writing (Initialize)";
+
+            try
+            {
+                Console.WriteLine(title);
+                SendCmd("0x03 01 00 5A", ref sResult, true);
+                SendCmd("0x03 01 01 5A", ref sResult, true);
+                SendCmd("0x03 01 02 5A", ref sResult, true);
+                SendCmd("0x03 01 03 5A", ref sResult, true);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
+        private void ProcessFlagWritingOK()
+        {
+            string sResult = "";
+            string title = "===Process flag writing (Write OK flag)===";
+
+            try
+            {
+                Console.WriteLine(title);
+                SendCmd("0x03 01 00 00", ref sResult, true);
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+        private void ProcessFlagReading()
+        {
+            string sResult = "";
+            string title = "===Process flag reading===";
+
+            try
+            {
+                Console.WriteLine(title);
+                SendCmd("0x02 02 FF", ref sResult, true);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        private void FWeraseALL()
+        {
+            string sResult = "";
+            string title = "===FW erase（All Clear）===";
+            //string TestCondition = "Test FW erase＠Use "J - Flash"";
+
+            try
+            {
+                Console.WriteLine(title);
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
+
         //public void SetICSystemIni(object iniObject)
         //{
         //    this.mSystemConfig = iniObject as SASP8SystemIni;
@@ -238,7 +382,7 @@ namespace Toshiba2203.Totest
 
         //    this.mLogCallback(sTtestResult, type);
         //}
-        
+
 
 
     }
