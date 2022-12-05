@@ -1,0 +1,10 @@
+D:\Work\Git\RFInstrumentCSharp\QCC5121\Utility\ASECL_JLink\ASECL_JLINK_CSharp\ASECL_JLINK_CSharp\bin\Debug\ASECL_JLINK_CSharp.exe.config
+D:\Work\Git\RFInstrumentCSharp\QCC5121\Utility\ASECL_JLink\ASECL_JLINK_CSharp\ASECL_JLINK_CSharp\bin\Debug\ASECL_JLINK_CSharp.exe
+D:\Work\Git\RFInstrumentCSharp\QCC5121\Utility\ASECL_JLink\ASECL_JLINK_CSharp\ASECL_JLINK_CSharp\bin\Debug\ASECL_JLINK_CSharp.pdb
+D:\Work\Git\RFInstrumentCSharp\QCC5121\Utility\ASECL_JLink\ASECL_JLINK_CSharp\ASECL_JLINK_CSharp\obj\Debug\ASECL_JLINK_CSharp.csproj.AssemblyReference.cache
+D:\Work\Git\RFInstrumentCSharp\QCC5121\Utility\ASECL_JLink\ASECL_JLINK_CSharp\ASECL_JLINK_CSharp\obj\Debug\ASECL_JLINK_CSharp.Form1.resources
+D:\Work\Git\RFInstrumentCSharp\QCC5121\Utility\ASECL_JLink\ASECL_JLINK_CSharp\ASECL_JLINK_CSharp\obj\Debug\ASECL_JLINK_CSharp.Properties.Resources.resources
+D:\Work\Git\RFInstrumentCSharp\QCC5121\Utility\ASECL_JLink\ASECL_JLINK_CSharp\ASECL_JLINK_CSharp\obj\Debug\ASECL_JLINK_CSharp.csproj.GenerateResource.cache
+D:\Work\Git\RFInstrumentCSharp\QCC5121\Utility\ASECL_JLink\ASECL_JLINK_CSharp\ASECL_JLINK_CSharp\obj\Debug\ASECL_JLINK_CSharp.csproj.CoreCompileInputs.cache
+D:\Work\Git\RFInstrumentCSharp\QCC5121\Utility\ASECL_JLink\ASECL_JLINK_CSharp\ASECL_JLINK_CSharp\obj\Debug\ASECL_JLINK_CSharp.exe
+D:\Work\Git\RFInstrumentCSharp\QCC5121\Utility\ASECL_JLink\ASECL_JLINK_CSharp\ASECL_JLINK_CSharp\obj\Debug\ASECL_JLINK_CSharp.pdb

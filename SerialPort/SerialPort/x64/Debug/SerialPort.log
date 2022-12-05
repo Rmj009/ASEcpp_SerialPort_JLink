@@ -1,0 +1,42 @@
+﻿  pch.cpp
+  dllmain.cpp
+  Main.cpp
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(42,1): warning C4273: 'SetLogCallback': 不一致的 DLL 連結
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\Main.h(16,34): message : 請參閱 'SetLogCallback' 之前的定義
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(47,1): warning C4273: 'SerialConnect': 不一致的 DLL 連結
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\Main.h(18,33): message : 請參閱 'SerialConnect' 之前的定義
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(146,1): warning C4273: 'SerialClose': 不一致的 DLL 連結
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\Main.h(20,33): message : 請參閱 'SerialClose' 之前的定義
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(155,24): warning C4273: 'ClearBuffer': 不一致的 DLL 連結
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\Main.h(22,33): message : 請參閱 'ClearBuffer' 之前的定義
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(326,1): warning C4273: 'TransferReceive': 不一致的 DLL 連結
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\Main.h(24,33): message : 請參閱 'TransferReceive' 之前的定義
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(337,5): warning C4267: '引數': 將 'size_t' 轉換為 'DWORD'，資料可能遺失
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(493,1): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  MultiSerialPort.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 請參閱 'sprintf' 的宣告
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\MultiSerialPort.h(61,1): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 請參閱 'sprintf' 的宣告
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\MultiSerialPort.cpp(36,1): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 請參閱 'sprintf' 的宣告
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\MultiSerialPort.cpp(42,1): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 請參閱 'sprintf' 的宣告
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\MultiSerialPort.cpp(156,74): error C2664: 'int _swprintf(wchar_t *const ,const wchar_t *const ,...)': 無法將引數 1 從 'char [8192]' 轉換為 'wchar_t *const '
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\MultiSerialPort.cpp(156,13): message : 指向的類型沒有相關; 轉換必須有 reinterpret_cast、C-Style 轉換或函式樣式轉換
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1446,37): message : 請參閱 '_swprintf' 的宣告
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\MultiSerialPort.cpp(175,1): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 請參閱 'sprintf' 的宣告
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\MultiSerialPort.cpp(219,5): warning C4267: '引數': 將 'size_t' 轉換為 'DWORD'，資料可能遺失
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\MultiSerialPort.cpp(208,1): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 請參閱 'sprintf' 的宣告
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\MultiSerialPort.cpp(214,1): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 請參閱 'sprintf' 的宣告
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\MultiSerialPort.cpp(275,1): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 請參閱 'sprintf' 的宣告
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\MultiSerialPort.cpp(351,1): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 請參閱 'sprintf' 的宣告
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\MultiSerialPort.cpp(367,1): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 請參閱 'sprintf' 的宣告
+E:\Git_Project\RF3\RFInstrumentCSharp\QCC5121\Utility\SerialPort\SerialPort\MultiSerialPort.cpp(399,1): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  正在產生程式碼...
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 請參閱 'sprintf' 的宣告

@@ -1,0 +1,60 @@
+﻿  pch.cpp
+  BinarySerialPort.cpp
+  dllmain.cpp
+  Main.cpp
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(45,1): warning C4273: 'SetLogCallback': 不一致的 DLL 連結
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.h(16,34): message : 請參閱 'SetLogCallback' 之前的定義
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(50,1): warning C4273: 'SerialConnect': 不一致的 DLL 連結
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.h(17,33): message : 請參閱 'SerialConnect' 之前的定義
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(172,1): warning C4273: 'SerialClose': 不一致的 DLL 連結
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.h(18,33): message : 請參閱 'SerialClose' 之前的定義
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(181,24): warning C4273: 'ClearBuffer': 不一致的 DLL 連結
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.h(19,33): message : 請參閱 'ClearBuffer' 之前的定義
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(362,1): warning C4273: 'TransferReceive': 不一致的 DLL 連結
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.h(20,33): message : 請參閱 'TransferReceive' 之前的定義
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(542,1): warning C4273: 'Multi_SetLogCallback': 不一致的 DLL 連結
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.h(22,34): message : 請參閱 'Multi_SetLogCallback' 之前的定義
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(547,1): warning C4273: 'Multi_SerialConnect': 不一致的 DLL 連結
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.h(23,33): message : 請參閱 'Multi_SerialConnect' 之前的定義
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(552,1): warning C4273: 'Multi_SerialClose': 不一致的 DLL 連結
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.h(24,33): message : 請參閱 'Multi_SerialClose' 之前的定義
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(557,1): warning C4273: 'Multi_SerialCloseAll': 不一致的 DLL 連結
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.h(25,34): message : 請參閱 'Multi_SerialCloseAll' 之前的定義
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(562,1): warning C4273: 'Multi_ClearBuffer': 不一致的 DLL 連結
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.h(26,33): message : 請參閱 'Multi_ClearBuffer' 之前的定義
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(567,1): warning C4273: 'Multi_TransferReceive': 不一致的 DLL 連結
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.h(27,33): message : 請參閱 'Multi_TransferReceive' 之前的定義
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(572,1): warning C4273: 'Binary_SetLogCallback': 不一致的 DLL 連結
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.h(29,34): message : 請參閱 'Binary_SetLogCallback' 之前的定義
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(577,1): warning C4273: 'Binary_SerialConnect': 不一致的 DLL 連結
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.h(30,33): message : 請參閱 'Binary_SerialConnect' 之前的定義
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(582,1): warning C4273: 'Binary_SerialClose': 不一致的 DLL 連結
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.h(31,33): message : 請參閱 'Binary_SerialClose' 之前的定義
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(587,1): warning C4273: 'Binary_ClearBuffer': 不一致的 DLL 連結
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.h(32,33): message : 請參閱 'Binary_ClearBuffer' 之前的定義
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(592,1): warning C4273: 'Binary_TransferReceive': 不一致的 DLL 連結
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.h(33,33): message : 請參閱 'Binary_TransferReceive' 之前的定義
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(597,1): warning C4273: 'Multi_SetLogCallbackV2': 不一致的 DLL 連結
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.h(35,34): message : 請參閱 'Multi_SetLogCallbackV2' 之前的定義
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(602,1): warning C4273: 'Multi_SerialConnectV2': 不一致的 DLL 連結
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.h(36,33): message : 請參閱 'Multi_SerialConnectV2' 之前的定義
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(607,1): warning C4273: 'Multi_SerialCloseV2': 不一致的 DLL 連結
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.h(37,33): message : 請參閱 'Multi_SerialCloseV2' 之前的定義
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(612,1): warning C4273: 'Multi_SerialCloseAllV2': 不一致的 DLL 連結
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.h(38,34): message : 請參閱 'Multi_SerialCloseAllV2' 之前的定義
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(617,1): warning C4273: 'Multi_ClearBufferV2': 不一致的 DLL 連結
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.h(39,33): message : 請參閱 'Multi_ClearBufferV2' 之前的定義
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(622,1): warning C4273: 'Multi_TransferReceiveV2': 不一致的 DLL 連結
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.h(40,33): message : 請參閱 'Multi_TransferReceiveV2' 之前的定義
+  MultiSerialPort.cpp
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\MultiSerialPort.cpp(37,16): warning C4477: 'sprintf' : 格式字串 '%s' 需要 'char *' 類型的引數，但 variadic 引數 1 的類型為 'std::string'
+  StringSerialPort.cpp
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\StringSerialPort.cpp(40,16): warning C4477: 'sprintf' : 格式字串 '%s' 需要 'char *' 類型的引數，但 variadic 引數 1 的類型為 'std::string'
+     正在建立程式庫 C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\Release\SerialPort.lib 和物件 C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\Release\SerialPort.exp
+  正在產生程式碼
+C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\SerialPort\Main.cpp(190): warning C4715: 'ClearBuffer': 不是所有控制路徑都傳回值
+  961 of 965 functions (99.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成程式碼產生
+  SerialPort.vcxproj -> C:\Users\quant\Documents\newRFTool\QCC5121\Utility\SerialPort\Release\SerialPort.dll
